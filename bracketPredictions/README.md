@@ -6,7 +6,7 @@ Given a matchup between two teams in the NCAA Tournament, what is the probabilit
 Given a matchup between two teams in the NCAA Tournament, what is the expected margin of victory for the higher seeded team (through linear modeling)?
 
 ### Fun Reads
-I'm currently living the live of a programmer, and it's nailed into us the importance of not "reinventing the wheel", so I found some cool things that other people had done.
+I'm currently living the life of a programmer, and it's nailed into us the importance of not "reinventing the wheel", so I found some cool things that other people had done.
 
 * [Predicting the Outcomes of NCAA Basketball Championship Game](https://www2.gwu.edu/~forcpgm/2011-003.pdf) (probit)
 * [Quantifying Intangibles: A New Way to Predict the NCAA Tournament](https://harvardsportsanalysis.wordpress.com/2011/05/18/quantifying-intangibles-a-network-analysis-prediction-model-for-the-ncaa-tournament/)
@@ -191,4 +191,6 @@ F-statistic: 53.57 on 14 and 1560 DF,  p-value: < 2.2e-16
 # Todos
 - [ ] Update dataset to remove matchups before 1997 (don't contain all statistics) and to include all matchups up until 2016
 - [ ] Include more advanced statistics for matchups, such as pace, offensive rating, and defensive rating
+- [ ] Include Ken Pomeroy's statistics, as his goal is prediction
+- [ ] Properly use variables / weed out what is a good predictor
 - [ ] Re-learn statistics to understand what the hell I'm doing
